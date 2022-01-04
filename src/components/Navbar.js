@@ -11,7 +11,7 @@ function Navbar() {
         <div className="navRight">
           <a
             href="/"
-            className="Link"
+            className="Link cart"
             style={{
               marginRight: "20px",
               fontSize: "20px",

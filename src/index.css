@@ -25,6 +25,7 @@ code {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
+  width: 100%;
 }
 .AppSliderContainer {
   display: flex;
@@ -41,7 +42,6 @@ code {
   margin-block: 50px;
 }
 .heroSection {
-  margin-block: -150px;
   z-index: -1;
   object-fit: cover;
   width: 100%;
@@ -290,5 +290,23 @@ code {
 /* Slider */
 
 /* mobile Screen */
-
+@media screen and (max-width: 768px) {
+  .navWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 190px;
+  }
+  .navLinks {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .navLinks > li {
+    margin-top: 10px;
+  }
+  .Link {
+    font-size: 12px;
+  }
+}
 /* mobile Screen */
