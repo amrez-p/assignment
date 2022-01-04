@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Footer from "./components/Footer";
+import { TextSection, LinkSection } from "./components/Sections";
+import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
+import Hero from "./images/hero.jpg";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <Navbar />
+      <img className="heroSection" src={Hero} alt="heroSection" />
+      <TextSection />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          backgroundColor: "orange",
+          width: "100%",
+          paddingBottom: "50px",
+        }}
+      >
+        <h2
+          style={{
+            textAlign: "center",
+            textTransform: "uppercase",
+            marginBlock: "50px",
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          Now Choose Your Servings
+        </h2>
+        <Slider />
+      </div>
+      <LinkSection />
+      <Footer />
     </div>
   );
 }

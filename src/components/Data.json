@@ -1,0 +1,37 @@
+[
+  {
+   "id":"0",
+    "img": "Pill.jpg",
+    "alt":"Pill",
+    "title": "6 Boxes Of Sugar Balance",
+    "package": "6 Month Best Value Package",
+    "savings": "Save Up To $695",
+    "bottle": "6 Bottles",
+    "retail_price": "$894.00",
+    "total_price": "$199.00",
+    "shipping": "FREE Global Shipping"
+  },
+  {
+   "id":"1",
+    "img": "Pill.jpg",
+    "alt":"Pill",
+    "title": "3 Boxes Of Sugar Balance",
+    "package": "3 Month Good Value Package",
+    "savings": "Save Up To $298",
+    "bottle": "3 Bottles",
+    "retail_price": "$447.00",
+    "total_price": "$149.00",
+    "shipping": "FREE Global Shipping"
+  },
+  {
+   "id":"2",
+    "img": "Pill.jpg",
+    "alt":"Pill",
+    "title": "1 Boxes Of Sugar Balance",
+    "package": "1 Month Basic Package",
+    "savings": "Save Up To $80",
+    "bottle": "1 Bottles",
+    "retail_price": "$149.00",
+    "total_price": "69.00" 
+   }
+]

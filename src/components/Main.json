@@ -1,0 +1,39 @@
+[
+    {
+        "Section":{
+            "paragraph": "Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.",
+             "paragraphTwo":"Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Sed blandit euismod est eget commodo. Quisque rhoncus, felis sed rhoncus pulvinar, turpis diam facilisis erat.",
+             "paragraphThree":"Cras aliquet nisi et eros tincidunt, ut pulvinar lectus interdum. Quisque sapien elit, ornare sed tristique id, lobortis at purus. Vestibulum in massa pretium, feugiat nibh sit amet, tristique augue."
+        },
+        "LinkSection":{
+            "MainTitle":"Other Important Pages",
+            "Pages":[
+                {
+             "title":"Privacy Policy",
+             "img":"Policy.jpg",
+             "alt":"Privacy Policy",
+             "button":"Read More"
+            },
+                {
+             "title":"Terms Of Use",
+             "img":"Terms_Of_Use.jpg",
+             "alt":"Terms Of Use",
+              "button":"Read More"
+            },
+                {
+             "title":"Technical Documentation",
+             "img":"Documentation.jpg",
+             "alt":"Technical Documentation",
+              "button":"Read More"
+            }
+        ]
+        },
+        "Footer":{
+            "praragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit felis at sem lobortis porttitor. Donec interdum, dui at varius dictum,lectus sapien faucibus lacus, eget pretium dolor lectus facilisis sem.Nullam mi turpis, maximus vestibulum lorem sit amet, imperdiet imperdietnisi. Nullam ultrices, augue placerat iaculis mollis, sem augue sodales turpis, et feugiat dui nisl eu sapien. Vestibulum vestibulum elementum mauris, vel suscipit mi placerat a. Suspendisse suscipit risus sit amet risus placerat, sit amet sollicitudin diam consectetur. Vivamus sit amet elit nec velit posuere ultricies. Vivamus eu metus imperdiet, pulvin nisi sed, maximus arcu. Nam et porta diam, sed ultricies lacus. Aenean vel consequat tortor, non semper ligula. Nunc id mauris velit. Ut est mauris, efficitur at placerat eget, rhoncus ut ligula. Proin dictum            bibendum erat, at euismod purus tincidunt ut.",
+             "Link":["Home","Review","Faq","Guaruntee","Disclaimer","Contact"],
+             "copyright": "  Copyright 2021 @Sugar Balance Discount Site | All Rights Reserved"
+        }  
+    }
+]
+
+
