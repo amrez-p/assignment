@@ -8,7 +8,9 @@ export const SVGSection = () => {
         Save Up to $695 and create Quick{" "}
         <span className="SVGSectionTint">Sugar Balance </span> Order Today
       </h2>
-      <button>Order Now</button>
+      <button>
+        <i class="fas fa-shopping-cart"></i> Order Now
+      </button>
       <h2>
         <span className="SVGSectionTint">Sugar Balance </span>Offical Site -%100
         Orignal
@@ -34,17 +36,30 @@ export const TextSection = () => {
               <span className="TextSectionTint">Sugar Balance </span>How It
               Works?
             </h2>
-            <p> {data.Section.paragraph} </p>
+            <p> {data.TextSection.paragraph} </p>
 
             <h2 className="TextSectionTitle">
               Why <span className="TextSectionTint"> Sugar Balance?</span>
             </h2>
-            <p> {data.Section.paragraphTwo} </p>
+            <p> {data.TextSection.paragraphTwo} </p>
             <h2 className="TextSectionTitle">
               How{" "}
               <span className="TextSectionTint">Do I take Sugar Balance?</span>
             </h2>
-            <p> {data.Section.paragraphThree} </p>
+            <p> {data.TextSection.paragraphThree} </p>
+            <div className="TextSectionSVG_Container">
+              {data.TextSection.SVG.map((item, index) => {
+                return (
+                  <div key={index} style={{ padding: "50px" }}>
+                    <img
+                      className="TextSectionSVG"
+                      src={require("../images/SVG/" + item.img)}
+                      alt={item.alt}
+                    />
+                  </div>
+                );
+              })}
+            </div>
           </>
         );
       })}

@@ -11,6 +11,10 @@ function Slider() {
           </div>
         );
       })}
+      <div className="Slide-Arrows">
+        <i className="fas fa-chevron-left Slide-Left"></i>
+        <i className="fas fa-chevron-right Slide-Right"></i>
+      </div>
     </div>
   );
 }

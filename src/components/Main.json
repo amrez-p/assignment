@@ -1,10 +1,29 @@
 [
     {
-        "Section":{
+        "TextSection":{
             "paragraph": "Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.",
              "paragraphTwo":"Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Sed blandit euismod est eget commodo. Quisque rhoncus, felis sed rhoncus pulvinar, turpis diam facilisis erat.",
-             "paragraphThree":"Cras aliquet nisi et eros tincidunt, ut pulvinar lectus interdum. Quisque sapien elit, ornare sed tristique id, lobortis at purus. Vestibulum in massa pretium, feugiat nibh sit amet, tristique augue."
-        },
+             "paragraphThree":"Cras aliquet nisi et eros tincidunt, ut pulvinar lectus interdum. Quisque sapien elit, ornare sed tristique id, lobortis at purus. Vestibulum in massa pretium, feugiat nibh sit amet, tristique augue.",
+             "SVG":[
+                 {
+                     "img":"fda.png",
+                     "alt":"FDA SVG"
+                 },
+                 {
+                     "img":"gmp.png",
+                     "alt":"GMP SVG"
+                 },
+                 {
+                     "img":"usa.jpg",
+                     "alt":"USA SVG"
+                 },
+                 {
+                     "img":"nsf.png",
+                     "alt":"NSF SVG"
+                 }
+             ]
+            },
+        
         "LinkSection":{
             "MainTitle":"Other Important Pages",
             "Pages":[

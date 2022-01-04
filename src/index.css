@@ -30,13 +30,14 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: orange;
+  background-color: lightyellow;
   width: 100%;
   padding-bottom: 50px;
 }
 .AppSliderTitle {
   text-align: center;
   text-transform: uppercase;
+  color: orange;
   margin-block: 50px;
 }
 .heroSection {
@@ -181,6 +182,17 @@ code {
 .SVGSectionTint {
   color: orange;
 }
+
+.TextSectionSVG_Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TextSectionSVG {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
 /* Text Section */
 /* SVG Section */
 .SVGSection {
@@ -198,13 +210,33 @@ code {
 .Slider {
   display: flex;
   align-items: center;
-  background-color: red;
+  position: relative;
 }
 .Slides {
   display: flex;
   justify-content: space-between;
   margin: 10px;
   background-color: white;
+}
+.Slide-Arrows {
+  display: flex;
+  align-items: center;
+}
+.Slide-Right {
+  position: absolute;
+  right: -70px;
+  background-color: gray;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+}
+.Slide-Left {
+  position: absolute;
+  left: -70px;
+  background-color: gray;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
 }
 /* Slider Cards */
 .cards {
