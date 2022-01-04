@@ -203,6 +203,26 @@ code {
   color: #fff;
   width: 100%;
 }
+.SVGSectionBtn {
+  margin: 20px;
+  padding-inline: 50px;
+  padding-block: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: darkorange;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+.SVGImgContainer {
+  display: flex;
+  align-items: center;
+}
+.SVGImg {
+  object-fit: contain;
+  height: 200px;
+  width: 200px;
+}
 /* SVG Section */
 /* Sections */
 

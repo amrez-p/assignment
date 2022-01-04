@@ -1,5 +1,49 @@
 [
     {
+        "SVGSection":{
+              "heading":"Save Up to $695 and create Quick",
+            "SponsorSVG":[
+                {
+                    "img":"webmd.jpg",
+                    "alt":"WEBMD SVG"
+                },
+                {
+                    "img":"healthline.png",
+                    "alt":"Health Line"
+                },
+                {
+                    "img":"harvard.png",
+                    "alt":"harvard SVG"
+                },
+                {
+                    "img":"diabetes.png",
+                    "alt":"diabetes SVG"
+                }
+            ],
+            "medicalSVG":[
+                {
+                    "img":"bottle.png",
+                    "alt":"bottle SVG",
+                    "title":"The hidden Root Cause",
+                    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                    "img":"heart.png",
+                    "alt":"heart SVG",
+                    "title":"The Dangerous side Effect",
+                    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+                },
+                {
+                    "img":"pin.png",
+                    "alt":"pin SVG",
+                    "title":"The Breakthrough Natural",
+                    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        
+                    
+                }
+            ]
+        },
         "TextSection":{
             "paragraph": "Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.",
              "paragraphTwo":"Quisque eu tempor massa. Sed pretium tortor congue libero feugiat elementum. Pellentesque dignissim et felis eu consectetur. Praesent et libero dignissim, vulputate eros nec, gravida lorem. Duis ac libero sollicitudin, convallis odio vel, feugiat eros. Fusce et sollicitudin tellus. Sed augue diam, dignissim vitae sollicitudin nec, posuere et purus.Sed blandit euismod est eget commodo. Quisque rhoncus, felis sed rhoncus pulvinar, turpis diam facilisis erat.",

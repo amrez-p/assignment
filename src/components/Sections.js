@@ -3,26 +3,54 @@ import Main from "./Main.json";
 
 export const SVGSection = () => {
   return (
-    <div className="SVGSection">
-      <h2>
-        Save Up to $695 and create Quick{" "}
-        <span className="SVGSectionTint">Sugar Balance </span> Order Today
-      </h2>
-      <button>
-        <i class="fas fa-shopping-cart"></i> Order Now
-      </button>
-      <h2>
-        <span className="SVGSectionTint">Sugar Balance </span>Offical Site -%100
-        Orignal
-      </h2>
-      <div>
-        <img src="" alt="" />
-      </div>
-      <div>
-        <img src="" alt="" />
-        <p></p>
-      </div>
-    </div>
+    <>
+      {Main.map((data, i) => {
+        return (
+          <div key={i} className="SVGSection">
+            <h2>
+              {data.SVGSection.heading}
+              <span className="SVGSectionTint"> Sugar Balance </span> Order
+              Today
+            </h2>
+            <button className="SVGSectionBtn">
+              <i class="fas fa-shopping-cart"></i> Order Now
+            </button>
+            <h2>
+              <span className="SVGSectionTint">Sugar Balance </span>Offical Site
+              -%100 Orignal
+            </h2>
+            <div className="SVGImgContainer">
+              {data.SVGSection.SponsorSVG.map((item, i) => {
+                return (
+                  <div key={i} style={{ padding: "10px" }}>
+                    <img
+                      className="SVGImg"
+                      src={require("../images/SVG/" + item.img)}
+                      alt={item.alt}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+            <div className="SVGImgContainer">
+              {data.SVGSection.medicalSVG.map((item, i) => {
+                return (
+                  <div key={i} style={{ padding: "40px", textAlign: "center" }}>
+                    <img
+                      className="SVGImg"
+                      src={require("../images/SVG/" + item.img)}
+                      alt={item.alt}
+                    />
+                    <h3>{item.title}</h3>
+                    <p>{item.desc}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </>
   );
 };
 
