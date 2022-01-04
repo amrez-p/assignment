@@ -1,6 +1,29 @@
 import React from "react";
 import Main from "./Main.json";
 
+export const SVGSection = () => {
+  return (
+    <div className="SVGSection">
+      <h2>
+        Save Up to $695 and create Quick{" "}
+        <span className="SVGSectionTint">Sugar Balance </span> Order Today
+      </h2>
+      <button>Order Now</button>
+      <h2>
+        <span className="SVGSectionTint">Sugar Balance </span>Offical Site -%100
+        Orignal
+      </h2>
+      <div>
+        <img src="" alt="" />
+      </div>
+      <div>
+        <img src="" alt="" />
+        <p></p>
+      </div>
+    </div>
+  );
+};
+
 export const TextSection = () => {
   return (
     <div className="TextSection">
@@ -8,16 +31,18 @@ export const TextSection = () => {
         return (
           <>
             <h2 className="TextSectionTitle">
-              <span className="TextTint">Sugar Balance </span>How It Works?
+              <span className="TextSectionTint">Sugar Balance </span>How It
+              Works?
             </h2>
             <p> {data.Section.paragraph} </p>
 
             <h2 className="TextSectionTitle">
-              Why <span className="TextTint"> Sugar Balance?</span>
+              Why <span className="TextSectionTint"> Sugar Balance?</span>
             </h2>
             <p> {data.Section.paragraphTwo} </p>
             <h2 className="TextSectionTitle">
-              How <span className="TextTint">Do I take Sugar Balance?</span>
+              How{" "}
+              <span className="TextSectionTint">Do I take Sugar Balance?</span>
             </h2>
             <p> {data.Section.paragraphThree} </p>
           </>

@@ -50,7 +50,9 @@ const Cards = ({ data, i }) => {
           </span>
         </div>
         <div>{data.shipping}</div>
-        <button className="cardBtn">Order Now</button>
+        <button className="cardBtn">
+          <i class="fas fa-shopping-cart"></i> Order Now
+        </button>
       </div>
     </div>
   );

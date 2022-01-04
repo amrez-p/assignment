@@ -18,7 +18,7 @@ function Navbar() {
               padding: "20px",
             }}
           >
-            Order Now
+            <i class="fas fa-shopping-cart"></i> Order Now
           </a>
         </div>
       </div>
